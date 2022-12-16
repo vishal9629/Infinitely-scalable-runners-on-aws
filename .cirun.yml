@@ -1,7 +1,7 @@
 runners:
   - name: "aws-runner"
     cloud: "aws"
-    instance_type: "t2.nano"
+    instance_type: "t2.micro"
     machine_image: "ami-05e786af422f8082a"
     preemptible: "true"
     workflow: .github/workflows/aws.yml
