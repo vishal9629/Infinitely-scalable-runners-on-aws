@@ -1,0 +1,1 @@
+# Infinitely scalable GitHub Actions runners on AWS with [Cirun](https://cirun.io/)
