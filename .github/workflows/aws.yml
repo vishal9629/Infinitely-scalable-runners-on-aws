@@ -8,16 +8,12 @@ jobs:
     runs-on: [self-hosted, cirun-aws-runner]
     steps:
     - uses: actions/checkout@v3
-
-    - name: Get Hostname
-      run: |
-        hostname
-    - name: Get system Information
+    - name: System Info
       run: |
         uname -a
-    - name: Get Memory
+    - name: Print Memory
       run: |
         free -m
-    - name: Get Architecture
+    - name: Print Architecture
       run: |
         dpkg --print-architecture
